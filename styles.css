@@ -145,3 +145,8 @@
   .contact-socials a > span:last-child { font-size: 12px; }
 }
 
+@media (min-width: 761px) and (max-width: 1080px) {
+  .project-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); }
+  .project-card { min-width: 0; }
+}
+
