@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Lista de tarefas em Python</title>
+  <desc id="desc">Prévia da aplicação de terminal: solicita tarefas, enumera a lista e remove tarefas concluídas, salvando os dados em JSON.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172019"/>
+      <stop offset="1" stop-color="#0d110e"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b241e"/>
+      <stop offset="1" stop-color="#151b17"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="1037" cy="126" r="198" fill="#c5f36b" opacity=".045"/>
+  <rect x="68" y="56" width="1064" height="638" rx="24" fill="url(#screen)" stroke="#354238" stroke-width="2"/>
+  <path d="M68 126h1064" stroke="#354238" stroke-width="2"/>
+  <circle cx="104" cy="91" r="8" fill="#c5f36b"/>
+  <circle cx="132" cy="91" r="8" fill="#889187"/>
+  <circle cx="160" cy="91" r="8" fill="#59645a"/>
+  <text x="195" y="98" fill="#d9dfd6" font-family="Arial, sans-serif" font-size="17" font-weight="600">lista de tarefas — python</text>
+  <text x="1065" y="98" text-anchor="end" fill="#879286" font-family="monospace" font-size="14">main.py</text>
+
+  <rect x="102" y="155" width="7" height="31" rx="3" fill="#c5f36b"/>
+  <text x="130" y="178" fill="#c5f36b" font-family="monospace" font-size="20" font-weight="700">python main.py</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="19">
+    <text x="110" y="237" fill="#9fa99f">Quer adicionar uma nova tarefa? [S/N]: <tspan fill="#e7eddf">S</tspan></text>
+    <text x="110" y="278" fill="#9fa99f">Qual tarefa você quer adicionar? <tspan fill="#e7eddf">Estudar Python</tspan></text>
+    <text x="110" y="319" fill="#9fa99f">Quer adicionar uma nova tarefa? [S/N]: <tspan fill="#e7eddf">S</tspan></text>
+    <text x="110" y="360" fill="#9fa99f">Qual tarefa você quer adicionar? <tspan fill="#e7eddf">Revisar exercícios</tspan></text>
+    <text x="110" y="401" fill="#9fa99f">Quer adicionar uma nova tarefa? [S/N]: <tspan fill="#e7eddf">N</tspan></text>
+  </g>
+
+  <rect x="102" y="428" width="996" height="1" fill="#303b32"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="19">
+    <text x="110" y="469" fill="#c5f36b">===== SUAS TAREFAS =====</text>
+    <text x="110" y="508" fill="#e7eddf"><tspan fill="#82917c">1 - </tspan>Estudar Python</text>
+    <text x="110" y="547" fill="#e7eddf"><tspan fill="#82917c">2 - </tspan>Revisar exercícios</text>
+    <text x="110" y="588" fill="#9fa99f">Qual tarefa você concluiu? <tspan fill="#e7eddf">1</tspan></text>
+  </g>
+
+  <rect x="102" y="611" width="996" height="1" fill="#303b32"/>
+  <rect x="102" y="638" width="126" height="30" rx="15" fill="#c5f36b" opacity=".12"/>
+  <text x="165" y="658" text-anchor="middle" fill="#c5f36b" font-family="monospace" font-size="13">PYTHON</text>
+  <rect x="241" y="638" width="103" height="30" rx="15" fill="#ffffff" opacity=".06"/>
+  <text x="292" y="658" text-anchor="middle" fill="#bac4b8" font-family="monospace" font-size="13">JSON</text>
+  <text x="1096" y="658" text-anchor="end" fill="#788477" font-family="Arial, sans-serif" font-size="13">tarefas salvas para a próxima execução</text>
+</svg>
+
