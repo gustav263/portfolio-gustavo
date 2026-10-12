@@ -192,3 +192,7 @@
   .hero::before { width: 115vw; right: -52%; top: 22%; }
   .nav-contact { padding: 0; border: 0; background: transparent; }
 }
+
+
+/* Bordas levemente arredondadas nos controles e botões */
+.button, .nav-contact, .credential-item > a, .menu-toggle, .skip-link { border-radius: 7px; }
