@@ -151,3 +151,44 @@
   .project-visual, .project-card:nth-child(2) .project-visual { min-height: 0; }
 }
 
+/* Mais presença para o verde-limão */
+:root { --accent: #cfff70; }
+.hero { isolation: isolate; }
+.hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: min(60vw, 720px);
+  aspect-ratio: 1;
+  right: -13%;
+  top: 1%;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(178, 235, 82, .13), rgba(178, 235, 82, .045) 38%, transparent 70%);
+}
+.hero h1 span:not(.accent) { color: var(--accent); }
+.intro-content h2 span, .path-content h2 span, .contact-content h2 span {
+  color: var(--accent);
+  text-shadow: 0 0 34px rgba(197, 243, 107, .16);
+}
+.nav-contact {
+  padding: 11px 14px;
+  border: 1px solid rgba(207, 255, 112, .48);
+  background: rgba(207, 255, 112, .09);
+  transition: background .2s, border-color .2s, color .2s;
+}
+.nav-contact:hover { color: var(--accent-ink) !important; background: var(--accent); border-color: var(--accent); }
+.section-kicker span:first-child { text-shadow: 0 0 16px rgba(207, 255, 112, .35); }
+.project-type { color: var(--accent); }
+.visual-mark { color: var(--accent); }
+.visual-one { background: radial-gradient(ellipse at 70% 45%, #526d3d, #1c281c 64%); }
+.visual-two { background: radial-gradient(ellipse at 40% 55%, #4d5239, #201f1b 65%); }
+.visual-shape { border-color: rgba(207, 255, 112, .8); box-shadow: 0 0 85px rgba(207, 255, 112, .16), inset 0 0 38px rgba(207, 255, 112, .12); }
+.skill-list li { border-color: rgba(207, 255, 112, .28); }
+.skill-list li:hover { background-color: rgba(207, 255, 112, .16); box-shadow: 0 0 22px rgba(207, 255, 112, .09); }
+.credential-item > a { padding: 8px 11px; border: 1px solid rgba(207, 255, 112, .36); background: rgba(207, 255, 112, .07); transition: background .2s, color .2s; }
+.credential-item > a:hover { color: var(--accent-ink); background: var(--accent); }
+.contact-socials > a:hover { color: var(--accent); }
+@media (max-width: 760px) {
+  .hero::before { width: 115vw; right: -52%; top: 22%; }
+  .nav-contact { padding: 0; border: 0; background: transparent; }
+}
