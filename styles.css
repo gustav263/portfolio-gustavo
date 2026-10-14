@@ -193,6 +193,32 @@
   .nav-contact { padding: 0; border: 0; background: transparent; }
 }
 
-
 /* Bordas levemente arredondadas nos controles e botões */
 .button, .nav-contact, .credential-item > a, .menu-toggle, .skip-link { border-radius: 7px; }
+
+/* Ilustrações dos cursos */
+.credential-item { justify-content: flex-start; }
+.credential-image {
+  display: block;
+  width: 112px;
+  height: 78px;
+  flex: 0 0 112px;
+  object-fit: cover;
+  border: 1px solid rgba(207, 255, 112, .24);
+  border-radius: 7px;
+  background: var(--surface);
+}
+.credential-details { flex: 1; min-width: 0; }
+.credential-item > a { margin-left: auto; }
+@media (max-width: 760px) {
+  .credential-item {
+    display: grid;
+    grid-template-columns: 88px minmax(0, 1fr);
+    align-items: center;
+    column-gap: 14px;
+    row-gap: 11px;
+  }
+  .credential-image { width: 88px; height: 72px; grid-row: span 2; }
+  .credential-details { grid-column: 2; }
+  .credential-item > a { grid-column: 2; margin-left: 0; justify-self: start; }
+}
