@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Inteligência artificial</title>
+  <desc id="desc">Rede neural estilizada com conexões luminosas e um núcleo central verde-limão.</desc>
+  <defs>
+    <linearGradient id="bg" x1="32" y1="14" x2="606" y2="410" gradientUnits="userSpaceOnUse"><stop stop-color="#1d291d"/><stop offset="1" stop-color="#101411"/></linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="matrix(0 104 -104 0 320 191)" gradientUnits="userSpaceOnUse"><stop stop-color="#e5ffb1"/><stop offset=".42" stop-color="#cfff70"/><stop offset="1" stop-color="#83b844" stop-opacity=".15"/></radialGradient>
+    <filter id="glow" x="224" y="90" width="192" height="192" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="19"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h640v420H0z"/>
+  <circle cx="320" cy="190" r="128" stroke="#cfff70" stroke-opacity=".12"/>
+  <circle cx="320" cy="190" r="91" stroke="#cfff70" stroke-opacity=".16" stroke-dasharray="3 9"/>
+  <g stroke="#cfff70" stroke-opacity=".55" stroke-width="1.5">
+    <path d="m151 120 101 41m-101 0 101 0m-101 41 101-41m-101 0 101 48m187-89 101-31m-101 72 101-41m-101 41 101 0m-101 0 101 40m-101-40 101 81"/>
+    <path d="m182 291 71-96m0 0 134-5m0 0 71 84" stroke-opacity=".32"/>
+  </g>
+  <circle cx="320" cy="190" r="64" fill="#cfff70" fill-opacity=".34" filter="url(#glow)"/>
+  <circle cx="320" cy="190" r="48" fill="url(#core)" stroke="#dfff9d" stroke-opacity=".8"/>
+  <path d="M302 191h36m-18-18v36m-12-30 24 24m0-24-24 24" stroke="#17220f" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#cfff70" stroke="#101411" stroke-width="4">
+    <circle cx="151" cy="120" r="9"/><circle cx="151" cy="161" r="9"/><circle cx="151" cy="202" r="9"/><circle cx="151" cy="243" r="9"/>
+    <circle cx="219" cy="291" r="8"/><circle cx="252" cy="161" r="8"/><circle cx="387" cy="185" r="8"/><circle cx="421" cy="291" r="8"/>
+    <circle cx="489" cy="120" r="9"/><circle cx="489" cy="161" r="9"/><circle cx="489" cy="202" r="9"/><circle cx="489" cy="243" r="9"/>
+  </g>
+  <path d="M74 348h492" stroke="#cfff70" stroke-opacity=".14"/>
+  <text x="320" y="378" fill="#cfff70" font-family="monospace" font-size="13" letter-spacing="4" text-anchor="middle">APRENDIZADO · PADRÕES · IDEIAS</text>
+</svg>
